@@ -4,7 +4,7 @@ This repository is a PyTorch implementation of the SCALAR proposed in *SCALAR: S
 
 
 
-![model](images/model.jpg)
+![model](images/model.png)
 
 In this paper, we propose SCALAR, a novel scene-aware framework for multi-modal large language models (MLLMs) to align the spatial representation of vision models with the concept knowledge in LLMs. 
     Our framework progresses through two training phases: supervised alignment and open-world reinforced fine-tuning.
