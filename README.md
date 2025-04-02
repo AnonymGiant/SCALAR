@@ -64,3 +64,16 @@ The performance of object classification is evaluated on LVIS and COCO 2017 data
 
 
 We further evaluate the region-level reasoning ability of our model on the close-set RefCOCOg and open-set Visual Genome datasets, as exhibited in Table VIII. In terms of the RefCOCOg dataset, SCALAR achieves excellent results on the RefCOCOg dataset, with improvements of more than 9.7 and 38.7 in METEOR and CIDEr scores, respectively, compared to the second-best results. It is evidence that our model caters to the requirements of complicated scene-aware understanding. Beyond that, we conduct zero-shot experiments on Visual Genome. The superior performances corroborate our main contributions of reinforced fine-tuning, which enhances the generalization and robustness of spatial-concept alignment in the open world. Moreover, there is no obvious difference among the results obtained by various visual prompts.
+
+## Dataset SCALAR-VG
+
+
+While the world model continues to advance, existing datasets remain inadequate for supporting large-scale multi-modal training, particularly in comprehensive multi-dimensional scene-aware understanding. Therefore, we have built the SCALAR-VG through the SCALAR, integrating and extending many open-source image datasets to meet this demandImportantly, It contains about 240K images with comprehensive, hierarchical and multi-dimensional annotations.
+
+We have uploaded our dataset on Huggingface. Please use the following command to download the dataset
+
+```bash
+git lfs install
+
+git clone https://huggingface.co/datasets/MiaoMiaoYang/SCALAR-VG
+```
